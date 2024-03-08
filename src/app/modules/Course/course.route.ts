@@ -14,6 +14,8 @@ router.post(
   CourseControllers.createCourse,
 );
 
+//
+
 router.get(
   '/:id',
   auth(
